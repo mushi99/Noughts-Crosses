@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "131076786885",
+    "project_id": "chillhai-1e0d8",
+    "storage_bucket": "chillhai-1e0d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131076786885:android:322477b6c951ab3029feac",
+        "android_client_info": {
+          "package_name": "com.merp.chillhai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131076786885-qqq5vc0osrf7j6f34c8iagc290kf35lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsUQxWA_gQpbZkWAuvg_Z2BnwFsy2smwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131076786885-qqq5vc0osrf7j6f34c8iagc290kf35lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
