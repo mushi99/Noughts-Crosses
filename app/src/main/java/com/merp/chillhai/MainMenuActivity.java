@@ -28,4 +28,8 @@ public class MainMenuActivity extends AppCompatActivity {
     public void menuPlayOnlineClicked(View view) {
         startActivity(new Intent(this,LoginActivity.class));
     }
+
+    public void clickHowToPlay(View view) {
+        startActivity(new Intent(MainMenuActivity.this, HowToPlay.class));
+    }
 }

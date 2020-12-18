@@ -20,8 +20,9 @@
         app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ttt"
         app:layout_constraintVertical_bias="1.0" />
+
+
 
     <ImageView
         android:id="@+id/buttonPlayOfflineFriends"
@@ -114,23 +115,28 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:alpha="0.6"
-        app:layout_constraintBottom_toTopOf="@id/guideline"
         app:layout_constraintHorizontal_bias="0.007"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/x" />
 
-    <ImageView
-        android:id="@+id/ttt"
+
+    <TextView
+        android:id="@+id/head"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/guideline"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.684"
-        app:srcCompat="@drawable/ttt" />
+        android:text="Noughts and Crosses"
+        android:textColor="#ffffff"/>
 
     <ImageView
         android:id="@+id/imageView11"
