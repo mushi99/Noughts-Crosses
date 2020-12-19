@@ -14,6 +14,8 @@
         android:fontFamily="monospace"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:text="Noughts and Crosses"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -21,8 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.507"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout"
-        android:text="Noughts and Crosses"
-        android:textColor="#ffffff"/>
+        />
 
     <TextView
         android:id="@+id/statusTextView"

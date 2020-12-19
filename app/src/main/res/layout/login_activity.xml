@@ -6,21 +6,46 @@
     android:orientation="vertical"
     android:background="@drawable/bg">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddressLogin"
-        android:layout_marginTop="200dp"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Noughts and Crosses"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="150dp"
+        />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/line"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddressLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
         android:ems="10"
+        android:inputType="textEmailAddress"
         android:padding="8sp"
-        android:textColor="#03FFCD"
-        android:inputType="textEmailAddress" />
+        android:textColor="#03FFCD" />
 
     <EditText
         android:id="@+id/editTextTextPasswordLogin"
         android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
         android:padding="8sp"
         android:textColor="#03FFCD"
         android:ems="10"
@@ -37,4 +62,6 @@
         android:text="Login"
         android:textColor="#000"
         android:textStyle="bold"/>
+
+
 </LinearLayout>
